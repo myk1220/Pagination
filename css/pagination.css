@@ -1,0 +1,58 @@
+
+#pagination > a {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: text-bottom;
+    height: 30px;
+    width: 40px;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    overflow: hidden;
+    background: #fff; 
+    border-top: 1px solid rgb(192, 192, 192);
+    border-bottom: 1px solid rgb(192, 192, 192);
+    border-right:  1px solid rgb(192, 192, 192);
+    user-select: none;
+}
+
+#pagination > div {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: text-bottom;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    overflow: hidden;
+    background: #fff; 
+    border-top: 1px solid rgb(192, 192, 192);
+    border-bottom: 1px solid rgb(192, 192, 192);
+    border-right:  1px solid rgb(192, 192, 192);
+    user-select: none;
+}
+
+#pagination > .homePage {
+    width: 50px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 5px 0 0 5px;
+}
+
+#pagination > .lastPage {
+    width: 50px;
+    border-radius: 0 5px 5px 0;
+}
+
+#pagination > .prePage {
+    width: 60px;
+    border-right: 1px solid rgb(192, 192, 192);
+}
+
+#pagination > .nextPage {
+    width: 60px;
+}
+
+#pagination > .active {
+    background-color: rgb(255,82,70);
+    color: #fff
+}

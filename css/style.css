@@ -1,0 +1,287 @@
+
+/*初始化*/
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    color: #555;
+    font-size: 14px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+td,
+th,
+caption {
+    font-size: 14px;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+i,
+b,
+strong {
+    font-style: normal;
+    font-weight: normal;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+input,
+textarea,
+select,
+button {
+    font: 14px Verdana, Helvetica, Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/*页面部分*/
+body{
+    padding: 10px 20px;
+    background-color: rgb(249, 250, 253)
+}
+
+#wrap{
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+/*头部导航*/
+
+#navBar{
+    overflow: hidden;
+    background-color: #fff;
+}
+
+#navBar > .leftBar {
+    float: left;
+    margin-left:40px; 
+}
+
+#navBar > .leftBar > ul > a> li {
+    float: left;
+    padding: 20px 20px;
+    
+}
+#navBar > .leftBar > ul > a{
+    color: rgb(188, 188, 188)
+}
+
+#navBar > .leftBar > ul > a:first-child {
+    color: rgb(240, 84, 74)
+}
+
+#navBar > .rightButton {
+    float: right;
+    margin-right:40px;
+}
+
+#navBar > .rightButton > a{
+    color: #fff;
+    padding: 10px 40px;
+    line-height: 57px;
+    border-radius: 10px;
+    background-color: rgb(255,117,108);
+}
+
+/*评论内容区*/
+
+#content{
+    margin-top:2px;
+    overflow: hidden; 
+}
+
+#content > ul > li{
+    padding: 20px 0;
+    margin-bottom: 2px;
+    background-color: #fff; 
+}
+
+#content > ul > li > .careertuIcon {
+    float: left;
+}
+
+#content > ul > li > .careertuIcon > img {
+    width: 30px;
+    margin-left:20px; 
+}
+
+#comment {
+    margin: 0px 200px 2px 70px;
+}
+
+/*内容标题信息行*/
+
+#comment > #title{
+    margin-bottom:10px; 
+}
+
+#comment > #title > span {
+    font-size: 12px;
+    color: rgb(175, 175, 175)
+}
+
+#comment > #title > span:first-child{
+    color: black
+}
+
+/*内容标题行*/
+
+#comment > #contentTitle{
+    margin: 8px 0;
+    height: 25px;
+    line-height: 25px
+}
+
+#comment > #contentTitle > span{
+    padding:0 8px;
+    border-radius: 5px;
+    float: left;
+    color: #fff;
+    margin-right:10px;
+    background-color: rgb(240, 84, 74);
+}
+
+/*内容区*/
+
+#comment > #con {
+    margin: 10px 0;
+}
+
+#comment > #con > p > a {
+    color: rgb(17, 146, 146);
+}
+
+/*互动区*/
+
+#comment > #icon > span{
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#comment > #icon > span > img {
+    width: 14px;
+    margin-right: 3px;
+}
+
+#comment > #icon > .commentBox{
+    margin-top: 10px; 
+    border: 1px solid rgb(158, 158, 158);
+    border-radius: 10px;
+    padding: 40px 20px;
+}
+
+#comment_inp{
+    height: 30px;
+    width: 600px;
+    border-radius: 5px;
+    border: 1px solid rgb(199, 195, 195);
+}
+#comment_btn{
+    cursor: pointer;
+    color: #fff;
+    margin-left: 30px;
+    border-radius: 8px;
+    border: none;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(95,171,255);
+}
+
+#comment > #icon > .commentBox > .commentContent{ 
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+#comment > #icon > .commentBox > .commentContent > ul > li > .com_title{
+    overflow: hidden;
+}
+
+#comment > #icon > .commentBox > .commentContent > ul > li > .com_title > .com_name{
+    float: left;
+    font-weight: bolder
+}
+
+#comment > #icon > .commentBox > .commentContent > ul > li > .com_title > .com_time{
+    float: right;
+    color: rgb(180, 180, 180)
+}
+
+#comment > #icon > .commentBox > .page {
+    margin: 50px auto;
+    text-align: center;
+}
